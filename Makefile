@@ -7,4 +7,4 @@ install:
 	pipenv install --dev --skip-lock
 
 test: 
-	python -m unittest tests/*
+	pytest
