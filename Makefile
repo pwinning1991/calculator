@@ -7,4 +7,4 @@ install:
 	pipenv install --dev --skip-lock
 
 test: 
-	PYTHONPATH=./src pytest
+	python -m unittest tests/*
