@@ -1,5 +1,4 @@
-langauge: python
-
+language: python
 python: "3.7"
 
 install:
@@ -7,4 +6,3 @@ install:
   - pipenv install
 
 script: make test
-
